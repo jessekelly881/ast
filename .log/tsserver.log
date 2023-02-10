@@ -1,0 +1,44 @@
+Info 0    [01:24:17.239] Starting TS Server
+Info 1    [01:24:17.241] Version: 4.9.5
+Info 2    [01:24:17.241] Arguments: /Users/jessekelly/.nvm/versions/node/v16.16.0/bin/node /Users/jessekelly/projects/ast/node_modules/typescript/lib/tsserver.js --logFile /Users/jessekelly/projects/ast/.log/tsserver.log --logVerbosity info --cancellationPipeName /private/var/folders/lc/y2dbm6r52hj5ljsq41phk2sm0000gn/T/26d5481a35aeed19c6ee5b6dc1fbab0e/tscancellation*
+Info 3    [01:24:17.241] Platform: darwin NodeVersion: 16 CaseSensitive: false
+Info 4    [01:24:17.241] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [01:24:17.248] Format host information updated
+Info 6    [01:24:19.039] Search path: /Users/jessekelly/projects/ast/src
+Info 7    [01:24:19.040] For info: /Users/jessekelly/projects/ast/src/index.ts :: Config file name: /Users/jessekelly/projects/ast/tsconfig.json
+Info 8    [01:24:19.040] Creating configuration project /Users/jessekelly/projects/ast/tsconfig.json
+Info 9    [01:24:19.050] Config: /Users/jessekelly/projects/ast/tsconfig.json : {
+ "rootNames": [
+  "/Users/jessekelly/projects/ast/src/index.ts",
+  "/Users/jessekelly/projects/ast/tests/index.ts"
+ ],
+ "options": {
+  "strict": true,
+  "noUnusedLocals": true,
+  "noUnusedParameters": true,
+  "noImplicitReturns": true,
+  "noFallthroughCasesInSwitch": true,
+  "noUncheckedIndexedAccess": true,
+  "rootDirs": [],
+  "esModuleInterop": true,
+  "skipLibCheck": true,
+  "forceConsistentCasingInFileNames": true,
+  "target": 1,
+  "module": 1,
+  "noEmit": true,
+  "configFilePath": "/Users/jessekelly/projects/ast/tsconfig.json"
+ }
+}
+Info 10   [01:24:19.070] Starting updateGraphWorker: Project: /Users/jessekelly/projects/ast/tsconfig.json
+Info 11   [01:24:19.852] Finishing updateGraphWorker: Project: /Users/jessekelly/projects/ast/tsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 781.5209579999791ms
+Info 12   [01:24:19.852] Project '/Users/jessekelly/projects/ast/tsconfig.json' (Configured)
+Info 13   [01:24:19.852] 	Files (341)
+
+Info 14   [01:24:19.852] -----------------------------------------------
+Info 15   [01:24:19.856] AutoImportProviderProject: found 3 root files in 3 dependencies in 2.3457089999865275 ms
+Info 16   [01:24:19.856] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [01:24:20.068] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 212.08699999999953ms
+Info 18   [01:24:20.068] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [01:24:20.068] 	Files (168)
+
+Info 20   [01:24:20.068] -----------------------------------------------

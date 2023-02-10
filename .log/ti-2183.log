@@ -1,0 +1,45 @@
+[01:24:17.387] Global cache location '/Users/jessekelly/Library/Caches/typescript/4.9', safe file path '/users/jessekelly/projects/ast/node_modules/typescript/lib/typingsafelist.json', types map path /users/jessekelly/projects/ast/node_modules/typescript/lib/typesmap.json
+[01:24:17.387] Processing cache location '/Users/jessekelly/Library/Caches/typescript/4.9'
+[01:24:17.388] Trying to find '/Users/jessekelly/Library/Caches/typescript/4.9/package.json'...
+[01:24:17.393] Loaded content of '/Users/jessekelly/Library/Caches/typescript/4.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.629"},"devDependencies":{"@types/babel__core":"^7.20.0","@types/benchmark":"^2.1.2","@types/core-js":"^2.5.5","@types/cpx":"^1.5.2","@types/eslint":"^8.4.10","@types/eslint-config-prettier":"^6.11.0","@types/eslint-plugin-markdown":"^2.0.0","@types/fast-text-encoding":"^1.0.1","@types/file-saver":"^2.0.5","@types/glob":"^8.0.1","@types/js-yaml":"^4.0.5","@types/jsdom":"^20.0.1","@types/madge":"^5.0.0","@types/prettier":"^2.7.2","@types/promise-polyfill":"^6.0.4","@types/react":"^18.0.27","@types/react-dom":"^18.0.10","@types/react-table":"^7.7.14","@types/rimraf":"^3.0.2","@types/rollup-plugin-visualizer":"^4.2.1","@types/sax":"^1.2.4","@types/webpack":"^5.28.0"}}
+[01:24:17.393] Loaded content of '/Users/jessekelly/Library/Caches/typescript/4.9/package-lock.json'
+[01:24:17.400] Adding entry into typings cache: 'babel__core' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/babel__core/index.d.ts'
+[01:24:17.402] Adding entry into typings cache: 'benchmark' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/benchmark/index.d.ts'
+[01:24:17.403] Adding entry into typings cache: 'core-js' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/core-js/index.d.ts'
+[01:24:17.404] Adding entry into typings cache: 'cpx' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/cpx/index.d.ts'
+[01:24:17.405] Adding entry into typings cache: 'eslint' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/eslint/index.d.ts'
+[01:24:17.407] Adding entry into typings cache: 'eslint-config-prettier' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/eslint-config-prettier/index.d.ts'
+[01:24:17.407] Adding entry into typings cache: 'eslint-plugin-markdown' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/eslint-plugin-markdown/index.d.ts'
+[01:24:17.408] Adding entry into typings cache: 'fast-text-encoding' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/fast-text-encoding/index.d.ts'
+[01:24:17.409] Adding entry into typings cache: 'file-saver' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/file-saver/index.d.ts'
+[01:24:17.411] Adding entry into typings cache: 'glob' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/glob/index.d.ts'
+[01:24:17.413] Adding entry into typings cache: 'js-yaml' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/js-yaml/index.d.ts'
+[01:24:17.413] Adding entry into typings cache: 'jsdom' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/jsdom/index.d.ts'
+[01:24:17.414] Adding entry into typings cache: 'madge' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/madge/index.d.ts'
+[01:24:17.415] Adding entry into typings cache: 'prettier' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/prettier/index.d.ts'
+[01:24:17.416] Adding entry into typings cache: 'promise-polyfill' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/promise-polyfill/index.d.ts'
+[01:24:17.418] Adding entry into typings cache: 'react' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/react/index.d.ts'
+[01:24:17.419] Adding entry into typings cache: 'react-dom' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/react-dom/index.d.ts'
+[01:24:17.420] Adding entry into typings cache: 'react-table' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/react-table/index.d.ts'
+[01:24:17.420] Adding entry into typings cache: 'rimraf' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/rimraf/index.d.ts'
+[01:24:17.421] Adding entry into typings cache: 'rollup-plugin-visualizer' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/rollup-plugin-visualizer/index.d.ts'
+[01:24:17.422] Adding entry into typings cache: 'sax' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/@types/sax/index.d.ts'
+[01:24:17.425] Adding entry into typings cache: 'webpack' => '/Users/jessekelly/Library/Caches/typescript/4.9/node_modules/webpack/types.d.ts'
+[01:24:17.425] Finished processing cache location '/Users/jessekelly/Library/Caches/typescript/4.9'
+[01:24:17.425] Process id: 2185
+[01:24:17.425] NPM location: /Users/jessekelly/.nvm/versions/node/v16.16.0/bin/npm (explicit '--npmLocation' not  provided)
+[01:24:17.425] validateDefaultNpmLocation: false
+[01:24:17.425] Npm config file: /Users/jessekelly/Library/Caches/typescript/4.9/package.json
+[01:24:17.425] Updating types-registry npm package...
+[01:24:17.425] Exec: /Users/jessekelly/.nvm/versions/node/v16.16.0/bin/npm install --ignore-scripts types-registry@latest
+[01:24:18.229]     Succeeded. stdout:
+    
+    up to date, audited 119 packages in 579ms
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[01:24:18.229] Updated types-registry npm package
+[01:27:19.507] Parent process has exited, shutting down...
