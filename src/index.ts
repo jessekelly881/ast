@@ -1,3 +1,4 @@
+export interface LiteralKeyword<A> { readonly _tag: "LiteralKeyword", literal: A } // union should merge at typelevel
 
 /*
  * ast0 - ast types with no arguments
@@ -63,8 +64,22 @@ export interface FunctionKeyword<A1 extends AST, A2 extends AST> {
   readonly output: A2
 }
 
+export interface UnionKeyword<A1 extends AST, A2 extends AST> {
+  readonly _tag: "UnionKeyword"
+  readonly left: A1
+  readonly right: A2
+}
+
+export interface IntersectionKeyword<A1 extends AST, A2 extends AST> {
+  readonly _tag: "IntersectionKeyword"
+  readonly left: A1
+  readonly right: A2
+}
+
 interface AST2Map<A1 extends AST, A2 extends AST> { 
   "FunctionKeyword": FunctionKeyword<A1, A2>;
+  "UnionKeyword": UnionKeyword<A1, A2>;
+  "IntersectionKeyword": IntersectionKeyword<A1, A2>;
 }
 
 export type AST2<A1 extends AST, A2 extends AST> = AST2Map<A1, A2>[keyof AST2Map<A1, A2>]
