@@ -87,11 +87,11 @@ interface ASTNMap<A extends ReadonlyArray<AST>> {
   "TupleKeyword": TupleKeyword<A>;
 }
 
+export type ASTN<A extends ASTArray> = ASTNMap<A>[keyof ASTNMap<A>]
+
 /*
  * ast - the union of all AST types
 */
-
-export type ASTN<A extends ASTArray> = ASTNMap<A>[keyof ASTNMap<A>]
 
 export type AST = AST0 
   | ASTArray
